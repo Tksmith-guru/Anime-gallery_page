@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:ital,wght@1,100;1,700&display=swap');
 
+body {
+	background: #F8F7F2;
+}
+
+
 /* STYLING FOR THE HEADER */
 .main-logo {
 	width: 70px;
@@ -13,12 +18,17 @@
 h1 {
 	display: inline-block;
 	margin-left:  50px;
+	font-family: sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	color: rgb(200, 0, 10);
 }
 
 #sites {
 	display: inline-block;
 	margin-left: 100px;
 	margin-top: -10px;
+	color: rgb(200, 0, 10);
 }
 
 #only {
@@ -26,18 +36,14 @@ h1 {
 	margin: auto 20px;
 }
 
-ul {
+ul.download {
 	display:inline-block;
 	margin-left: 100px;
 }
 
 a {
 	text-decoration: none;
-	color: #000;
-}
-
-a:visited {
-	color: #2200ff;
+	color: rgb(200,0, 10);
 }
 
 a:link {
@@ -45,7 +51,7 @@ a:link {
 }
 
 a:hover {
-	text-decoration: #f00 underline;
+	text-decoration: #ff0010 underline;
 }
 
 a:active {
@@ -62,6 +68,10 @@ img {
 	width: 100%;
 	height: 300px;
 	display: inline-block;
+}
+
+img:hover {
+	opacity: 0.5;
 }
 
 .pics {
@@ -87,4 +97,15 @@ img {
 p {
 	width:400px;
 	margin-left: 120px;
+	color: rgb(200, 0, 10);
+}
+
+.speech {
+	margin-left: 120px;
+	color: rgb(200, 0, 10);
+}
+
+ul.foot {
+	list-style: none;
+	margin-left: 80px;
 }
