@@ -46,6 +46,16 @@ ul.download {
 	margin-left: 100px;
 }
 
+@media only screen and (max-width:1260px) {
+	ul.download {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 109%;
+		justify-content: justify;
+	}
+}
+
 a {
 	text-decoration: none;
 	color: rgb(200,0, 10);
@@ -84,6 +94,12 @@ img:hover {
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 10px 30px;
+}
+
+@media only screen and (max-width: 980px) {
+	div.pics {
+		width: 119%;
+	}
 }
 
 .first,
