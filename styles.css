@@ -99,6 +99,9 @@ img:hover {
 @media only screen and (max-width: 980px) {
 	div.pics {
 		width: 119%;
+		max-width: 1200px;
+		text-align: center;
+		height: 100px;
 	}
 }
 
